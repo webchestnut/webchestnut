@@ -156,7 +156,7 @@
 
     .products {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       gap: 1.5rem;
     }
 
@@ -176,6 +176,7 @@
     .product-card:nth-child(1) { animation-delay: 0.1s; }
     .product-card:nth-child(2) { animation-delay: 0.2s; }
     .product-card:nth-child(3) { animation-delay: 0.3s; }
+    .product-card:nth-child(4) { animation-delay: 0.4s; }
 
     @keyframes cardFadeIn {
       from { opacity: 0; transform: translateY(18px); }
@@ -370,6 +371,20 @@
           </svg>
         </a>
       </article>
+
+      <article class="product-card">
+        <div class="product-icon product-icon-empty" aria-hidden="true"></div>
+        <h2>3DSURVIVALOSV</h2>
+        <p class="desc" data-i18n="survival">
+          3D-игра на выживание от первого лица прямо в браузере. <strong>3dsurvivalosv</strong> — постапокалиптический город, лес, ночь и зомби. Исследуй мир и выживай без установки.
+        </p>
+        <a href="https://webchestnut.github.io/3dsurvivalosv/" target="_blank" rel="noopener" class="product-btn">
+          <span data-i18n="open">Открыть</span>
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/>
+          </svg>
+        </a>
+      </article>
     </div>
   </main>
 
@@ -385,6 +400,7 @@
         konspektator: 'Превращает длинный текст в понятный и структурированный конспект. <strong>Конспектатор</strong> выделяет главные мысли, важные факты, термины и итог — идеально для учёбы, работы и быстрой обработки информации.',
         open: 'Открыть',
         ritext: 'Редактор текста с транслитом, оформлением и экспортом. <strong>ritext</strong> помогает писать, переключать язык, форматировать и сохранять результат в TXT, PDF или DOCX — удобно для заметок и быстрой работы с текстом.',
+        survival: '3D-игра на выживание от первого лица прямо в браузере. <strong>3dsurvivalosv</strong> — постапокалиптический город, лес, ночь и зомби. Исследуй мир и выживай без установки.',
         footer: '© 2026 WebChestnut. Все права защищены.'
       },
       en: {
@@ -395,6 +411,7 @@
         konspektator: 'Turns long text into a clear structured summary. <strong>Konspektator</strong> highlights main ideas, key facts, terms and the conclusion — perfect for studying, work and quick information processing.',
         open: 'Open',
         ritext: 'Text editor with translit, formatting and export. <strong>ritext</strong> helps you write, switch languages, format and save results as TXT, PDF or DOCX — perfect for notes and quick text work.',
+        survival: 'First-person 3D survival game right in the browser. <strong>3dsurvivalosv</strong> — post-apocalyptic city, forest, night and zombies. Explore the world and survive with no install.',
         footer: '© 2026 WebChestnut. All rights reserved.'
       },
       lv: {
@@ -405,6 +422,7 @@
         konspektator: 'Pārvērš garu tekstu saprotamā un strukturētā konspektā. <strong>Konspektators</strong> izceļ galvenās domas, svarīgus faktus, terminus un secinājumu — ideāli mācībām, darbam un ātrai informācijas apstrādei.',
         open: 'Atvērt',
         ritext: 'Teksta redaktors ar translitu, noformējumu un eksportu. <strong>ritext</strong> palīdz rakstīt, mainīt valodu, formatēt un saglabāt rezultātu kā TXT, PDF vai DOCX — ērti piezīmēm un ātram darbam ar tekstu.',
+        survival: '3D izdzīvošanas spēle no pirmās personas tieši pārlūkā. <strong>3dsurvivalosv</strong> — postapokaliptiska pilsēta, mežs, nakts un zombiji. Izpēti pasauli un izdzīvo bez instalācijas.',
         footer: '© 2026 WebChestnut. Visas tiesības aizsargātas.'
       }
     };
